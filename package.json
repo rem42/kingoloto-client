@@ -1,6 +1,6 @@
 {
   "name": "kingoloto-client",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "kingoloto client to play grids",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,6 +9,7 @@
     "build:watch": "tsc --watch",
     "lint": "tslint -p tsconfig.json --fix",
     "postversion": "git push && git push --tags",
+    "prepublishOnly": "npm run build",
     "clean:all": "npm run clean:tmp && rimraf node_modules",
     "clean:tmp": "rimraf dist"
   },
