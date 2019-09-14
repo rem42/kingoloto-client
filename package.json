@@ -1,6 +1,6 @@
 {
   "name": "kingoloto-client",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "kingoloto client to play grids",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -26,6 +26,6 @@
     "typescript": "^3.6.2"
   },
   "dependencies": {
-    "bananalotto-client": "0.0.1"
+    "bananalotto-client": "0.0.2"
   }
 }
