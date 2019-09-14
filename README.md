@@ -1,4 +1,7 @@
 # kingoloto-client
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/rem42/kingoloto-client.svg)](https://greenkeeper.io/)
+
 A client for kingoloto using node
 
 [![npm](https://img.shields.io/npm/v/kingoloto-client.svg)](https://www.npmjs.com/package/kingoloto-client)
