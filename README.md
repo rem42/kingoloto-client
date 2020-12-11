@@ -15,16 +15,12 @@ npm install kingoloto-client --save
 ```
 ## Usage
 ### TypeScript
+
 ```typescript
-import {Credentials} from "bananalotto-client";
-import {KingolotoClient} from "kingoloto-client";
+import {Kingoloto} from "kingoloto-client";
 
-const credential = new Credentials();
-credential.email = 'email@email.com';
-credential.password = 'password';
-
-KingolotoClient.init(credential)
-.then((client: KingolotoClient) => {
+Kingoloto.init('email@email.com', 'password')
+.then((client: Kingoloto) => {
     // code
 });
 ```

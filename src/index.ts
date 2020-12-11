@@ -1,1 +1,2 @@
-export {KingolotoClient} from './Client/kingoloto-client';
+export {User} from './model/user';
+export {Kingoloto} from './kingoloto';
