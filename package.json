@@ -1,6 +1,6 @@
 {
   "name": "kingoloto-client",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "kingoloto client to play grids",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
